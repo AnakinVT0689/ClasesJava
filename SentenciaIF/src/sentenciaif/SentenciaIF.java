@@ -15,7 +15,7 @@ public class SentenciaIF {
         else {
             if (num1 == num2 ){
                 System.out.println("Son iguales");
-            }
+            } 
             else {
                 System.out.println("El num1 es mayor al num2");
             }

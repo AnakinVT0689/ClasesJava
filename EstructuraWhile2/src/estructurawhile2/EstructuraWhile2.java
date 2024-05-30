@@ -8,7 +8,7 @@ public class EstructuraWhile2 {
         
         while (cont <= 10) {
         
-            System.out.println("Esstoy en la vuelta "+ cont);
+            System.out.println("Estoy en la vuelta "+ cont);
             
             cont = cont + 1;
         }

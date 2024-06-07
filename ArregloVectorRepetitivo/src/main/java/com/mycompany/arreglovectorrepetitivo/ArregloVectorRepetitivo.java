@@ -12,5 +12,12 @@ public class ArregloVectorRepetitivo {
         vector[1] = 35;
         vector[2] = 48;
         vector[3] = 157;        
+        
+        //recorrido
+        for (int i=0; i < vector.length; i++){
+            System.out.println("Estoy en el indice: "+ i);
+            System.out.println("Tengo guardado un: "+ vector[i]);
+            System.out.println("---------------------------------");
+        }
     }
 }

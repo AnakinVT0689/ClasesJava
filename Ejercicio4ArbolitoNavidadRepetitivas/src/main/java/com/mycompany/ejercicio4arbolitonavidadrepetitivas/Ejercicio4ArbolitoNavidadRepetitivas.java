@@ -18,14 +18,14 @@ public class Ejercicio4ArbolitoNavidadRepetitivas {
             }
             //bucle para los asteriscos **
             for (int asterisco=0; asterisco <(fila*2)+1; asterisco++){
-                System.out.print("0");
+                System.out.print("*");
             }
             //salto de linea
             System.out.println("");
         }
         
         //tronco
-        int largoTronco = 2;
+        int largoTronco = 3;
         for (int base=0; base<largoTronco ; base++){
             //bucle para los espacion en blanco
             for (int espacio=0;espacio<(altura-2);espacio++){

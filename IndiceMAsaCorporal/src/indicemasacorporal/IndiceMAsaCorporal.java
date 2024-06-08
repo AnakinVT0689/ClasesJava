@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class IndiceMAsaCorporal {
 
     public static void main(String[] args) {
-        double indice;
+    double indice;
 
     System.out.println("Ingrese por favor su peso en kg: ");
     Scanner teclado = new Scanner (System.in);

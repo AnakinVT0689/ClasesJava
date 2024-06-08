@@ -18,7 +18,7 @@ public class Ejercicio4ArbolitoNavidadRepetitivas {
             }
             //bucle para los asteriscos **
             for (int asterisco=0; asterisco <(fila*2)+1; asterisco++){
-                System.out.print("*");
+                System.out.print("0");
             }
             //salto de linea
             System.out.println("");

@@ -69,9 +69,9 @@ public class ReservadeAsientos {
     }
 
     static void dibujarMapa(char asientos[][]) {
-        for (int f = 0; f < 10; f++) {
+        for (int f = 0; f < 9; f++) {
             System.out.print(f + " ");
-            for (int c = 0; c < 10; c++) {
+            for (int c = 0; c < 9; c++) {
                 System.out.print("[" + asientos[f][c] + "]");
             }
             System.out.println("");

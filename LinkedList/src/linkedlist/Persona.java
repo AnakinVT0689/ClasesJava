@@ -1,7 +1,6 @@
-package arraylist;
+package linkedlist;
 
 public class Persona {
-
     private int num;
     private String nombre;
     private int edad;
@@ -37,5 +36,5 @@ public class Persona {
 
     public void setEdad(int edad) {
         this.edad = edad;
-    }
+    }    
 }

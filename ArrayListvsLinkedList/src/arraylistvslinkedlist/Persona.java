@@ -1,7 +1,6 @@
-package arraylist;
+package arraylistvslinkedlist;
 
 public class Persona {
-
     private int num;
     private String nombre;
     private int edad;
@@ -38,4 +37,10 @@ public class Persona {
     public void setEdad(int edad) {
         this.edad = edad;
     }
+
+    @Override
+    public String toString() {
+        return "Persona{" + "num=" + num + ", nombre=" + nombre + ", edad=" + edad + '}';
+    }
+   
 }
